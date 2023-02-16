@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ParentComponent } from './parent-component/parent-component.component'
 import { ChildComponent } from './child/child.component';
+
+import 'zone.js'; 
+
 @NgModule({
   declarations: [
     AppComponent,
